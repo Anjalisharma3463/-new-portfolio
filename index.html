@@ -25,9 +25,21 @@
 <nav class="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img  src="/images/logo as.jpg" alt="Logo"> <span class="logoname"   >Anjali sharma
+            <img  src="/images/logo as.jpg" alt="Logo"> 
+            
+            <div class="loading">
+                <svg width="64px" height="48px">
+                    <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+                  <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+                </svg>
+              </div>
+
+            <span class="logoname"   >
+                Anjali sharma
                
-            </span>
+            </span> 
+            
+            
           
         </a>
         <a class="nav-link navbar-item" href="#home">Home</a>
@@ -49,10 +61,14 @@
    
 
         <div class="hero-content">
-            <div class="container">
+            <div class="container-home ">
                 <br><br><br><br>
                 <h3>Hi   &#128075; , I am </h3>
-                <h1 class="text">Anjali Sharma</h1>
+                
+                <!-- <h1 class="text">Anjali Sharma</h1> -->
+                <button class="namebtn">
+               Anjali sharma
+                 </button>
                 <h4 class="subtitle">
                     I am a <span id="typed-text" data-typist="Student,Cs50 Learner,Coding Enthusiast,Web Developer">web developer</span>
                 </h4>
@@ -83,12 +99,13 @@
                          class="leetcode"
                          src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/LeetCode_logo.png"
                          alt="Leetcode Logo"></a>
-                </div>
-
-                  
+           
+                <br>
+                
 
             </div>
                    <br><br><br><br><br><br><br>
+                   
             <div class="spinner-grow text-primary" role="status">
                 <span class="visually-hidden">Loading...</span>
               </div>
@@ -114,6 +131,8 @@
                 <span class="visually-hidden">Loading...</span>
               </div>
         </div>
+        
+  
         
     </section>
 </div>
@@ -240,17 +259,21 @@
 <div id="projects">
     <div class="centered-section">
         <h3  class="headings">Projects</h3>
+ 
+
+
+
         <div class="projects-container">
             
-            
 
-            <div class="card" style="width: 18rem;">
-                <img  src="  /images/extension_img.jpg"  class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5  class="para" class="card-title">Web reading Enhancer & Task Manager  </h5>
-                  <p  class="para" class="card-text">                        
-                    🔧 Features:
-                    
+
+            <div class="card">
+                <img src="/images/extension_img.jpg  " alt="Card Image">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                  <p class="card__title">Web reading Enhancer & Task Manager   </p>
+                  <p class="card__description">🔧 Features:
+                    <br>
                     Note-saving,
                     Task management,
                     Text highlighting,
@@ -259,25 +282,23 @@
                     <small > 🛠️ Technologies Used:
                          GIT , github
                           APIs,
-                        JavaScript</small>
-                    </p></p>
-                 </div>
+                        JavaScript</small></p>
+                </div>
               </div>
+              
 
-
-              <div class="card" style="width: 18rem;">
-                <img src=" /images/portf.jpg"
-                class="card-img-top" alt=" ...">
-                <div class="card-body">
-                  <h5 class="para"  >Portfolio  </h5>
-                  <p  class="para" >  This is a portfolio Website </p>
-                  <p class="para">
-                    <small > 🛠️ Technologies Used:
-                        HTML , CSS , GIT , GITHUB
-                      JavaScript</small>
-                  </p>
-                 </div>
+              <div class="card">
+                <img class="w3" src=" /images/portf.jpg " alt="Card Image">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                  <p class="card__title">Portfolio  </p>
+                  <p class="card__description">   This is a portfolio Website .                     <small > 🛠️ Technologies Used:
+                    HTML , CSS , GIT , GITHUB
+                  JavaScript</small></p>
+                </div>
               </div>
+              
+ 
 
 
 
@@ -291,42 +312,73 @@
  
 
 
-<br><br><br>
-<br><br>
+<br> 
  
-<Divider orientation='horizontal' />
+<div class="form-wrapper">
+    <div class="form-container">
+        <form class="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="form-submit-btn">Submit</button>
+        </form>
+    </div>
+</div>
+
+ 
+<div class="button-container">
+ <button class="namebtn" >
+    <a class="button"  href=" /resume.pdf"  download="/frontend/resume.pdf">Download My Resume</a>
+ </button>
+
+</div>
+<br>
+ 
+
+ 
+
+
 <div id="contact">
     <div class="contact-section">
       
-        <h1>Get in touch</h1>
+        <h1>Get in touch...</h1>
         <ul class="contact-list">
             <li>Email: anjalisharma3463@example.com</li>
             <li>Phone: +91 12345 67890</li>
             <br>
-
-           
-    
-
-           <sl-button  variant="primary" outline pill>
-            <li><a class="button"  href=" /resume.pdf"  download="/frontend/resume.pdf">Download My Resume</a>
-           </sl-button>
-
-           
- 
-            </li>
- 
-
- 
+  
         </ul>
     </div>
 </div>
 
-
-<footer>
-    <div class="container">
-      <p>&copy; 2024 Anjali sharma. All rights reserved.</p>
-      <p>Website: <a href="https://www.johndoe.com">www.johndoe.com</a></p>
+<div class="container">
+    <span class="hover-me">Hover me !</span>
+    <div class="tooltip">
+      <p>Heyy👋, Thank you for visiting my portfolio...</p>
     </div>
-  </footer>
+  </div>
+  
+
+ <br> 
+ 
+<footer>
+  <div class="copyright">
+    <p class="para">&copy; 2024 Anjali sharma. All rights reserved.</p>
+    <p class="para">Website: <a href="https://www.johndoe.com">www.johndoe.com</a></p>
+  </div>
+</footer>
+
+ 
+ 
+ 
 </body>
 </html>
