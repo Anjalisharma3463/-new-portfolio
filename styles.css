@@ -667,7 +667,7 @@ p {
   }
    */
   body {
-            --value: rgb(8, 9, 39,1);
+            --value: rgb(2, 2, 22);
             background: var(--value);
             transition: background 1s;
         }
@@ -918,6 +918,4 @@ footer {
   margin-right: 40px; 
 }
 
-.theme {
-  /* Your existing theme button styles */
-}
+ 

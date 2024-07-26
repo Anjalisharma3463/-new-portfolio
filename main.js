@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     theme.addEventListener('click', () => {
         isToggled = !isToggled;
-        body.style.setProperty("--value", isToggled ? "url('/images/background.jpg')" : "black ");
+        body.style.setProperty("--value", isToggled ? "url('/images/background.jpg')" : "rgb(2, 2, 22) ");
         body.style.background = `var(--value)`;
     });
 });
