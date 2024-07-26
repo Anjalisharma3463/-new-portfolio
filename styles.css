@@ -101,6 +101,7 @@
 }
 
 
+
 /* ////////////hover me  */
 .book {
   position: relative;
@@ -125,6 +126,9 @@
   -ms-flex-pack: center;
   justify-content: center;
   color: #000;
+}
+.co{
+  padding-left: 30px;
 }
 
 .cover {
