@@ -423,7 +423,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 125vh;
 }
 
 /* ////////////////// form contact// */
@@ -726,6 +727,7 @@ body {
     margin-top: 2rem;
     margin-left: 240px;
     margin-right: 240px;
+    height: 700px;
   }
   
    
@@ -772,6 +774,10 @@ body {
   .project-text{
     margin-left: 120px;
     margin-right: 120px;
+  }
+
+  .projects-container{
+    height: 600px;
   }
   
   .timeline-content {
